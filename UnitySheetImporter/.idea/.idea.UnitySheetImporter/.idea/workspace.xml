@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8552d6fb-8fe7-47fe-923b-07a3b8647eff" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/SheetGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1744">
+              <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#164#0" expanded="true" />
+                <marker date="1562477524374" expanded="true" signature="467:622" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="666:722" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="766:1696" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="905:963" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="1301:1690" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="1389:1680" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="1766:3061" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="2003:3013" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="2303:3003" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="3086:3888" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="3104:3832" ph="{...}" />
+                <marker date="1562477524374" expanded="true" signature="3862:3882" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/Editor/XLSXImportEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#205#0" expanded="true" />
+                <marker date="1562486929867" expanded="true" signature="270:2411" ph="{...}" />
+                <marker date="1562486929867" expanded="true" signature="450:745" ph="{...}" />
+                <marker date="1562486929867" expanded="true" signature="603:739" ph="{...}" />
+                <marker date="1562486929867" expanded="true" signature="840:1610" ph="{...}" />
+                <marker date="1562486929867" expanded="true" signature="1155:1553" ph="{...}" />
+                <marker date="1562486929867" expanded="true" signature="1666:1983" ph="{...}" />
+                <marker date="1562486929867" expanded="true" signature="2041:2409" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/FileWriter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding>
+                <marker date="1562477470304" expanded="true" signature="41:470" ph="{...}" />
+                <marker date="1562477470304" expanded="true" signature="105:139" ph="{...}" />
+                <marker date="1562477470304" expanded="true" signature="176:468" ph="{...}" />
+                <marker date="1562477470304" expanded="true" signature="194:411" ph="{...}" />
+                <marker date="1562477470304" expanded="true" signature="310:401" ph="{...}" />
+                <marker date="1562477470304" expanded="true" signature="442:462" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/FileReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#144#0" expanded="true" />
+                <marker date="1562477535494" expanded="true" signature="233:267" ph="{...}" />
+                <marker date="1562477535494" expanded="true" signature="294:707" ph="{...}" />
+                <marker date="1562477535494" expanded="true" signature="312:628" ph="{...}" />
+                <marker date="1562477535494" expanded="true" signature="451:591" ph="{...}" />
+                <marker date="1562477535494" expanded="true" signature="659:679" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/Sheet.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+                <marker date="1562426076000" expanded="true" signature="83:384" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="181:216" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="244:295" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="333:382" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="422:548" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="474:546" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="590:961" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="690:746" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="776:959" ph="{...}" />
+                <marker date="1562426076000" expanded="true" signature="794:953" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/CodeGenerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <marker date="1562475096000" expanded="true" signature="227:5401" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="478:639" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="685:1127" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="827:876" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="1159:1337" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="1393:3878" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="1400:1943" ph="/* [Serializable] ... */" />
+                <marker date="1562475096000" expanded="true" signature="2218:2431" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="2687:2935" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="3937:4601" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="3944:4068" ph="/* [Serializable] ... */" />
+                <marker date="1562475096000" expanded="true" signature="4325:4528" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="4626:5398" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="4641:5361" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="4825:4986" ph="{...}" />
+                <marker date="1562475096000" expanded="true" signature="4907:4978" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/FileWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/Editor/XLSXImportEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/CodeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/FileReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/Sheet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/SheetGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/UnitySheetImporter/FileWriter.cs" />
+        <option value="$PROJECT_DIR$/Assets/UnitySheetImporter/SheetGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/UnitySheetImporter/FileReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/UnitySheetImporter/Editor/XLSXImportEditor.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.UnitySheetImporter/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="498" />
+    <option name="y" value="14" />
+    <option name="width" value="1399" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8552d6fb-8fe7-47fe-923b-07a3b8647eff" name="Default Changelist" comment="" />
+      <created>1562477281705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562477281705</updated>
+      <workItem from="1562477312497" duration="269000" />
+      <workItem from="1562486910032" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="290000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="498" y="14" width="1399" height="1000" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.253174" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/SheetGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1744">
+          <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#164#0" expanded="true" />
+            <marker date="1562477524374" expanded="true" signature="467:622" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="666:722" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="766:1696" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="905:963" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="1301:1690" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="1389:1680" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="1766:3061" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="2003:3013" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="2303:3003" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="3086:3888" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="3104:3832" ph="{...}" />
+            <marker date="1562477524374" expanded="true" signature="3862:3882" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/FileWriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <marker date="1562477470304" expanded="true" signature="41:470" ph="{...}" />
+            <marker date="1562477470304" expanded="true" signature="105:139" ph="{...}" />
+            <marker date="1562477470304" expanded="true" signature="176:468" ph="{...}" />
+            <marker date="1562477470304" expanded="true" signature="194:411" ph="{...}" />
+            <marker date="1562477470304" expanded="true" signature="310:401" ph="{...}" />
+            <marker date="1562477470304" expanded="true" signature="442:462" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/FileReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#144#0" expanded="true" />
+            <marker date="1562477535494" expanded="true" signature="233:267" ph="{...}" />
+            <marker date="1562477535494" expanded="true" signature="294:707" ph="{...}" />
+            <marker date="1562477535494" expanded="true" signature="312:628" ph="{...}" />
+            <marker date="1562477535494" expanded="true" signature="451:591" ph="{...}" />
+            <marker date="1562477535494" expanded="true" signature="659:679" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/Sheet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1562426076000" expanded="true" signature="83:384" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="181:216" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="244:295" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="333:382" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="422:548" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="474:546" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="590:961" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="690:746" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="776:959" ph="{...}" />
+            <marker date="1562426076000" expanded="true" signature="794:953" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/CodeGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1562475096000" expanded="false" signature="6:199" ph="..." />
+            <marker date="1562475096000" expanded="true" signature="227:5401" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="478:639" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="685:1127" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="827:876" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="1159:1337" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="1393:3878" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="1400:1943" ph="/* [Serializable] ... */" />
+            <marker date="1562475096000" expanded="true" signature="2218:2431" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="2687:2935" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="3937:4601" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="3944:4068" ph="/* [Serializable] ... */" />
+            <marker date="1562475096000" expanded="true" signature="4325:4528" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="4626:5398" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="4641:5361" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="4825:4986" ph="{...}" />
+            <marker date="1562475096000" expanded="true" signature="4907:4978" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UnitySheetImporter/Editor/XLSXImportEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#205#0" expanded="true" />
+            <marker date="1562486929867" expanded="true" signature="270:2411" ph="{...}" />
+            <marker date="1562486929867" expanded="true" signature="450:745" ph="{...}" />
+            <marker date="1562486929867" expanded="true" signature="603:739" ph="{...}" />
+            <marker date="1562486929867" expanded="true" signature="840:1610" ph="{...}" />
+            <marker date="1562486929867" expanded="true" signature="1155:1553" ph="{...}" />
+            <marker date="1562486929867" expanded="true" signature="1666:1983" ph="{...}" />
+            <marker date="1562486929867" expanded="true" signature="2041:2409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
