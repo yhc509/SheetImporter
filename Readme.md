@@ -1,4 +1,5 @@
 # UnitySheetImporter
+- developed at Unity 2019.1.8 f1.
 
 ## Features
 1. Drag Excel(.xlsx) file to project.
@@ -23,8 +24,8 @@
 - second row is name of column.
 
 | **string**       | **int**       | **float**       | **bool**       |
-|--------------|-----------|-------------|------------|
 | **stringColumn** | **intColumn** | **floatColumn** | **boolColumn** |
+|--------------|-----------|-------------|------------|
 | row1         | 1         | 1.1         | TRUE       |
 | row2         | 10        | 3.14        | FALSE      |
 
