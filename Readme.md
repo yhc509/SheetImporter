@@ -24,9 +24,7 @@
 - second row is name of column.
 
 | **string**       | **int**       | **float**       | **bool**       |
-|--------------|-----------|-------------|------------|
 | **stringColumn** | **intColumn** | **floatColumn** | **boolColumn** |
-|--------------|-----------|-------------|------------|
 | row1         | 1         | 1.1         | TRUE       |
 | row2         | 10        | 3.14        | FALSE      |
 
