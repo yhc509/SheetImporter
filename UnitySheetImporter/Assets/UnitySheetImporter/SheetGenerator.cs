@@ -92,6 +92,9 @@ public class SheetGenerator
                 case "bool":
                     method.Invoke(dataSheetRow, new object[] {key, (bool) cell.BooleanCellValue});
                     break;
+                case "long":
+                    method.Invoke(dataSheetRow, new object[] {key, (long) cell.NumericCellValue});
+                    break;
                 case "int[]":
                     var intSplitStr = cell.StringCellValue.Split(';');
                     int[] arrInt = new int[intSplitStr.Length];
@@ -125,6 +128,16 @@ public class SheetGenerator
                 case "string[]":
                     var stringSplitStr = cell.StringCellValue.Split(';');
                     method.Invoke(dataSheetRow, new object[] {key, stringSplitStr });
+                    break;
+                case "long[]":
+                    var longSplitStr = cell.StringCellValue.Split(';');
+                    long[] arrLong = new long[longSplitStr.Length];
+                    for (int i = 0; i < longSplitStr.Length; i++)
+                    {
+                        arrLong[i] = default(long);
+                        long.TryParse(longSplitStr[i], out arrLong[i]);
+                    }
+                    method.Invoke(dataSheetRow, new object[] {key, arrLong });
                     break;
                 default:
                     return null;

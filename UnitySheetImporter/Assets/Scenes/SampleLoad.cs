@@ -16,10 +16,12 @@ public class SampleLoad : MonoBehaviour
         // access by column
         Debug.Log(sheet.intColumn[0]);
         Debug.Log(sheet.stringColumn[0]);
+        Debug.Log(sheet.longColumn[0]);
         
         // access by row
         Debug.Log(sheet.Rows[0].intColumn);
         Debug.Log(sheet.Rows[0].stringColumn);
         Debug.Log(sheet.Rows[0].stringArrColumn[0]);
+        Debug.Log(sheet.Rows[0].longArrColumn[0]);
     }
 }

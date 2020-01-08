@@ -8,10 +8,12 @@ public class SampleSheet : Sheet
 	public SheetCol<int> intColumn;
 	public SheetCol<float> floatColumn;
 	public SheetCol<bool> boolColumn;
+	public SheetCol<long> longColumn;
 	public SheetCol<string[]> stringArrColumn;
 	public SheetCol<int[]> intArrColumn;
 	public SheetCol<float[]> floatArrColumn;
 	public SheetCol<bool[]> boolArrColumn;
+	public SheetCol<long[]> longArrColumn;
 	
 	public SampleSheet()
 	{
@@ -19,10 +21,12 @@ public class SampleSheet : Sheet
 		intColumn = new SheetCol<int>(this, "intColumn");
 		floatColumn = new SheetCol<float>(this, "floatColumn");
 		boolColumn = new SheetCol<bool>(this, "boolColumn");
+		longColumn = new SheetCol<long>(this, "longColumn");
 		stringArrColumn = new SheetCol<string[]>(this, "stringArrColumn");
 		intArrColumn = new SheetCol<int[]>(this, "intArrColumn");
 		floatArrColumn = new SheetCol<float[]>(this, "floatArrColumn");
 		boolArrColumn = new SheetCol<bool[]>(this, "boolArrColumn");
+		longArrColumn = new SheetCol<long[]>(this, "longArrColumn");
 	}
 	
 	public new SampleSheetRow[] Rows
@@ -43,8 +47,10 @@ public class SampleSheetRow : SheetRow
 	public int intColumn;
 	public float floatColumn;
 	public bool boolColumn;
+	public long longColumn;
 	public string[] stringArrColumn;
 	public int[] intArrColumn;
 	public float[] floatArrColumn;
 	public bool[] boolArrColumn;
+	public long[] longArrColumn;
 }
