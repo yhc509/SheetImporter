@@ -8,6 +8,8 @@
 ## Support types
 - [x] int
 - [x] int[]
+- [x] long
+- [x] long[]
 - [x] float
 - [x] float[]
 - [x] bool
@@ -16,7 +18,8 @@
 - [x] string[]
 
 ## Todo
-- binary file reader
+- binary file read editor
+- set directory path for generate code & binary file
 
 ## Example
 
