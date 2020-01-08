@@ -183,15 +183,17 @@ public class TestSheetRow : SheetRow
 				    writer.Flush();
 			    }
 		    }
-		    
-		    var dataPathDir = new DirectoryInfo( Application.dataPath );
-		    var dataPathUri = new Uri( Application.dataPath );
-		    
-		    var relativeUri = dataPathUri.MakeRelativeUri( new Uri( filePath ) );
+
+		    var dataPathUri = new Uri(Application.dataPath);
+
+		    var relativeUri = dataPathUri.MakeRelativeUri(new Uri(filePath));
 		    var relativePath = Uri.UnescapeDataString(relativeUri.ToString());
-		    AssetDatabase.ImportAsset( relativePath, ImportAssetOptions.ForceUpdate );
+		    AssetDatabase.ImportAsset(relativePath, ImportAssetOptions.ForceUpdate);
 	    }
-	    catch (IOException e) { }
+	    catch (Exception e)
+	    {
+		    throw e;
+	    }
     }
 
 }

@@ -19,10 +19,22 @@ class SheetPostprocessor : AssetPostprocessor
     {
         var assetPath = assetImporter.assetPath;
         var assetExtension = Path.GetExtension(assetPath);
-        if (assetExtension == ".xlsx")
+        
+        try
         {
-            GenerateCode(assetPath);
-            EditorUtility.DisplayProgressBar("Sheet Imported", assetPath, 0f);
+            if (assetExtension == ".xlsx")
+            {
+                GenerateCode(assetPath);
+                EditorUtility.DisplayProgressBar("Sheet Imported", assetPath, 0f);
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+        }
+        finally
+        {
+            EditorUtility.ClearProgressBar();
         }
     }
     
@@ -33,19 +45,29 @@ class SheetPostprocessor : AssetPostprocessor
 
         var fileList = dataPathDir.GetFiles("*.xlsx", SearchOption.AllDirectories);
         if (fileList.Length == 0) return;
-        
-        for( int i = 0; i < fileList.Length; i++)
+
+        try
         {
-            var file = fileList[i];
-            
-            var relativeUri = dataPathUri.MakeRelativeUri( new Uri( file.FullName ) );
-            var relativePath = Uri.UnescapeDataString( relativeUri.ToString() );
-            
-            GenerateBinary(relativePath);
-            EditorUtility.DisplayProgressBar("Sheet Conveted", relativePath, (float)i / fileList.Length);
+            for (int i = 0; i < fileList.Length; i++)
+            {
+                var file = fileList[i];
+
+                var relativeUri = dataPathUri.MakeRelativeUri(new Uri(file.FullName));
+                var relativePath = Uri.UnescapeDataString(relativeUri.ToString());
+
+                GenerateBinary(relativePath);
+                EditorUtility.DisplayProgressBar("Sheet Conveted", relativePath, (float) i / fileList.Length);
+            }
+
         }
-        
-        EditorUtility.ClearProgressBar();
+        catch (Exception e)
+        {
+            Debug.LogError(e);
+        }
+        finally
+        {
+            EditorUtility.ClearProgressBar();
+        }
     }
 
     private static void GenerateCode(string assetPath)
@@ -66,7 +88,6 @@ class SheetPostprocessor : AssetPostprocessor
         sheetGen.Generate(assetPath);
         
         Debug.LogFormat($"<b><color=green>[Sheet Converted] {assetPath}</color></b>");
-        AssetDatabase.DeleteAsset(assetPath);
     }
 }
 

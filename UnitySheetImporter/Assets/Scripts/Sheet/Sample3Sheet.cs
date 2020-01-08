@@ -2,7 +2,7 @@
 using System.Linq;
 
 [Serializable]
-public class SampleSheet : Sheet
+public class Sample3Sheet : Sheet
 {
 	public SheetCol<string> stringColumn;
 	public SheetCol<int> intColumn;
@@ -13,7 +13,7 @@ public class SampleSheet : Sheet
 	public SheetCol<float[]> floatArrColumn;
 	public SheetCol<bool[]> boolArrColumn;
 	
-	public SampleSheet()
+	public Sample3Sheet()
 	{
 		stringColumn = new SheetCol<string>(this, "stringColumn");
 		intColumn = new SheetCol<int>(this, "intColumn");
@@ -25,19 +25,19 @@ public class SampleSheet : Sheet
 		boolArrColumn = new SheetCol<bool[]>(this, "boolArrColumn");
 	}
 	
-	public new SampleSheetRow[] Rows
+	public new Sample3SheetRow[] Rows
 	{
-		get { return rows.Select(x => x as SampleSheetRow).ToArray();  }
+		get { return rows.Select(x => x as Sample3SheetRow).ToArray();  }
 	}
 	
-	public new SampleSheetRow this[int rowNum]
+	public new Sample3SheetRow this[int rowNum]
 	{
-		get { return rows[rowNum] as SampleSheetRow; }
+		get { return rows[rowNum] as Sample3SheetRow; }
 	}
 	
 }
 [Serializable]
-public class SampleSheetRow : SheetRow
+public class Sample3SheetRow : SheetRow
 {
 	public string stringColumn;
 	public int intColumn;

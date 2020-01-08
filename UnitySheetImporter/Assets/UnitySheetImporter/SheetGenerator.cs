@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text;
 using NPOI.SS.UserModel;
@@ -29,6 +30,7 @@ public class SheetGenerator
     {
         Convert(sheetPath);
         Save();
+        Delete(sheetPath);
     }
 
     private void Convert(string sheetPath)
@@ -90,13 +92,47 @@ public class SheetGenerator
                 case "bool":
                     method.Invoke(dataSheetRow, new object[] {key, (bool) cell.BooleanCellValue});
                     break;
+                case "int[]":
+                    var intSplitStr = cell.StringCellValue.Split(';');
+                    int[] arrInt = new int[intSplitStr.Length];
+                    for (int i = 0; i < intSplitStr.Length; i++)
+                    {
+                        arrInt[i] = default(int);
+                        int.TryParse(intSplitStr[i], out arrInt[i]);
+                    }
+                    method.Invoke(dataSheetRow, new object[] {key, arrInt });
+                    break;
+                case "float[]":
+                    var floatSplitStr = cell.StringCellValue.Split(';');
+                    float[] arrFloat = new float[floatSplitStr.Length];
+                    for (int i = 0; i < floatSplitStr.Length; i++)
+                    {
+                        arrFloat[i] = default(float);
+                        float.TryParse(floatSplitStr[i], out arrFloat[i]);
+                    }
+                    method.Invoke(dataSheetRow, new object[] {key, arrFloat });
+                    break;
+                case "bool[]":
+                    var boolSplitStr = cell.StringCellValue.Split(';');
+                    bool[] arrBool = new bool[boolSplitStr.Length];
+                    for (int i = 0; i < boolSplitStr.Length; i++)
+                    {
+                        arrBool[i] = default(bool);
+                        bool.TryParse(boolSplitStr[i], out arrBool[i]);
+                    }
+                    method.Invoke(dataSheetRow, new object[] {key, arrBool });
+                    break;
+                case "string[]":
+                    var stringSplitStr = cell.StringCellValue.Split(';');
+                    method.Invoke(dataSheetRow, new object[] {key, stringSplitStr });
+                    break;
                 default:
                     return null;
             }
         }
-
         return dataSheetRow as SheetRow;
     }
+    
 
     private void Save()
     {
@@ -120,6 +156,12 @@ public class SheetGenerator
         }
         catch (IOException e)
         {
+            throw e;
         }
+    }
+
+    private void Delete(string sheetPath)
+    {
+        AssetDatabase.DeleteAsset(sheetPath);
     }
 }

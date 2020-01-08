@@ -20,5 +20,6 @@ public class SampleLoad : MonoBehaviour
         // access by row
         Debug.Log(sheet.Rows[0].intColumn);
         Debug.Log(sheet.Rows[0].stringColumn);
+        Debug.Log(sheet.Rows[0].stringArrColumn[0]);
     }
 }

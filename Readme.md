@@ -7,15 +7,16 @@
 
 ## Support types
 - [x] int
+- [x] int[]
 - [x] float
+- [x] float[]
 - [x] bool
+- [x] bool[]
 - [x] string
+- [x] string[]
 
 ## Todo
-- Support binary loader.
-- Support more types. (int[], float[], bool[], string[])
-- Add edit field for binary & code target directory.
-- Measure data access time.
+- binary file reader
 
 ## Example
 
