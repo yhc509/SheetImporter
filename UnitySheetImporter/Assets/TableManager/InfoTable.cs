@@ -21,7 +21,7 @@ public class InfoTable
 public class TableInfo<K, V> where V : class
 {
     // index, values
-    public Dictionary<K, V> _dic = new Dictionary<K, V>();
+    private Dictionary<K, V> _dic = new Dictionary<K, V>();
     
     public TableInfo()
     {
@@ -80,10 +80,25 @@ public class TableInfo<K, V> where V : class
     {
         get
         {
-            if (_dic.ContainsKey(key))
-                return _dic[key];
-            return null;
+            V v = null;
+            _dic.TryGetValue(key, out v);
+            return v;
         }
+    }
+
+    public List<V> ToList()
+    {
+        return _dic.Select(x => x.Value).ToList();
+    }
+
+    public int Count()
+    {
+        return _dic.Count;
+    }
+
+    public V ElementAt(int index)
+    {
+        return ToList().ElementAt(index);
     }
 
     public V[] FindAll(Func<V, bool> condition)
