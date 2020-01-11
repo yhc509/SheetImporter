@@ -7,21 +7,16 @@ public class SampleLoad : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var bytePath = Application.dataPath + "/Data/Sample.bytes";
-       
-        var fr = new FileReader(bytePath);
-        var bytes = fr.Read();
-        var sheet = bytes.Deserialize<SampleSheet>();
+        TableManager tableManager = new TableManager();
+        tableManager.Initialize();
 
-        // access by column
-        Debug.Log(sheet.intColumn[0]);
-        Debug.Log(sheet.stringColumn[0]);
-        Debug.Log(sheet.longColumn[0]);
+        var testTable = tableManager.TestTable;
         
-        // access by row
-        Debug.Log(sheet.Rows[0].intColumn);
-        Debug.Log(sheet.Rows[0].stringColumn);
-        Debug.Log(sheet.Rows[0].stringArrColumn[0]);
-        Debug.Log(sheet.Rows[0].longArrColumn[0]);
+        // index 기반 접근
+        Debug.Log(testTable[10000].stringColumn);
+        
+        // 조건 탐색 접근
+        Debug.Log(testTable.Find(x=>x.Index == 10000).stringColumn);
     }
+    
 }
