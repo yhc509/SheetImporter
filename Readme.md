@@ -47,6 +47,9 @@
 	
 ![](1.png)
 
+- 클래스 파일은 Assets/Scripts/Data 에 생성됩니다.
+- 바이너리 파일은 Assets/Data 에 생성됩니다.
+
 
 ### TableManager 수정 방법
 - TableManager.cs에서 사용할 테이블을 직접 설정해주어야 합니다.
