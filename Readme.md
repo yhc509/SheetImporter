@@ -56,24 +56,6 @@
 ![](2.png)
 
 
-### TableManager 수정 방법
-- TableManager.cs에서 사용할 테이블을 직접 설정해주어야 합니다.
-
-```csharp
-// TableInfo < Index자료형, 테이블클래스 >
-public TableInfo<int, test> TestTable = new TableInfo<int, test>();
-```
-- 위와 같은 형태의 멤버변수를 추가해줍니다.
-
-```csharp
-public void Initialize()
-{
-	TestTable.Initailize(Path.Combine(BinaryDirectoryPath, "test.bytes"));
-}
-```
-- Initialize 함수 내에 위와 같은 형태로 테이블 초기화 코드를 작성해줍니다.
-
-
 ### 테이블 접근 예제
 
 ```csharp
