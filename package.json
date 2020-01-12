@@ -1,0 +1,17 @@
+{
+  "name": "com.yhc5091.sheetimporter",
+  "version": "0.0.1",
+  "displayName": "SheetImporter",
+  "description": "엑셀 -> 바이너리 변환 모듈",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+ },
+ "keywords": [
+  ],
+  "author": {
+    "name": "yhc5091",
+    "email": "yhc5091@gmail.com",
+    "url": "https://github.com/yhc509"
+  }
+}
