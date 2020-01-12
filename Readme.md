@@ -1,5 +1,4 @@
-# UnitySheetImporter
-- Unity 2019.1.8 f1 버전으로 개발.
+# SheetImporter 0.0.1
 
 ## 기능
 1. 엑셀 파일을 (.xlsx) 바이너리 파일 (.bytes)로 변환.
@@ -22,7 +21,6 @@
 ## 개발 예정
 - 바이너리 파일을 유니티 에디터에서 확인할 수 있도록 커스텀 에디터 지원
 - 코드와 바이너리 파일이 생성되는 위치를 커스텀 에디터에서 설정
-- TableManager.cs 코드 변경 자동화 및 기능 구현
 
 ## 예제
 
@@ -51,6 +49,12 @@
 - 클래스 파일은 Assets/Scripts/Data 에 생성됩니다.
 - 바이너리 파일은 Assets/Data 에 생성됩니다.
 
+### 패키지 설치 방법
+- Unity PackagerManager 의 기능을 활용하였습니다.
+- SheetImporter 폴더를 [프로젝트경로]/Package 에 저장하거나,
+- Window-PackageManager 에서 Add package from disk로 package.json 파일을 불러오세요.
+![](2.png)
+
 
 ### TableManager 수정 방법
 - TableManager.cs에서 사용할 테이블을 직접 설정해주어야 합니다.
@@ -73,13 +77,12 @@ public void Initialize()
 ### 테이블 접근 예제
 
 ```csharp
-// TableManger 초기화
-TableManager tableManager = new TableManager();
-tableManager.Initialize();
+// Index타입 , 클래스타입
+public Table<int, TestTable> testTable = new Table<int, TestTable>();
 
-// 테이블 접근
-var testTable = tableManager.TestTable;
-        
+// 바이너리 파일의 경로로 초기화
+testTable.Initailize(Path.Combine(Application.datapath, "testTable.bytes")); // Assets/testTable.bytes
+
 // index 기반 접근
 Debug.Log(testTable[10000].stringColumn);
 
